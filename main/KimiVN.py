@@ -1,4 +1,4 @@
-from chatterbot import ChatBot
+from chatterbot.chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import os
 from gtts import gTTS
@@ -20,7 +20,7 @@ bot1 = ChatBot('KimiVN',
     logic_adapters=[
         'chatterbot.logic.MathematicalEvaluation',
         'chatterbot.logic.BestMatch',
-        'main.logic.time_adapter.TimeLogicAdapterVN'
+        'chatterbot.logic.TimeLogicAdapterVN'
     ],
    database_uri='sqlite:///database.sqlite3')
 trainer = ChatterBotCorpusTrainer(bot1)

@@ -1,5 +1,5 @@
 from datetime import datetime
-from main.logic.logic_adapter import LogicAdapter
+from chatterbot.logic.logic_adapter import LogicAdapter
 from chatterbot.conversation import Statement
 
 
