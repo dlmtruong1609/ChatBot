@@ -1,1 +1,3 @@
 # ChatBot
+## DANG LE MINH TRUONG
+## BOTNAME: KIMI
